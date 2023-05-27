@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categoris",
+  "info": {
+    "singularName": "categori",
+    "pluralName": "categoris",
+    "displayName": "categori"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
