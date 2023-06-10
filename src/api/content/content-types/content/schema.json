@@ -4,7 +4,8 @@
   "info": {
     "singularName": "content",
     "pluralName": "contents",
-    "displayName": "content"
+    "displayName": "content",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,32 +13,37 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "content_name": {
       "type": "string"
     },
     "audio": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "categorises": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::categori.categori"
+    },
+    "description": {
+      "type": "string"
     }
   }
 }
